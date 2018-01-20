@@ -1,2 +1,2 @@
 # Udacity
-Udacity projects will go here. 
+Udacity practice projects and exams will go here. 

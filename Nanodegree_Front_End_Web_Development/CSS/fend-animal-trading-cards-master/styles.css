@@ -7,6 +7,7 @@ html    {
     width: 300px;
     box-shadow: 10px 5px 5px black;
     background-color: grey;
+    border: 5px inset white;
 }
 
 .title {
@@ -23,5 +24,14 @@ html    {
 }
 
 .label {
-font-weight: bold;
+    font-weight: bold;
+}
+
+.pborder {
+    border: 5px inset white;
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
 }
