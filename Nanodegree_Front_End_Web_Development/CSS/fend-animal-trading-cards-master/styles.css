@@ -6,7 +6,7 @@ html{
     width: 300px;
     padding: 10px;
     border: 1px solid #cccccc;
-    box-shodow: 5px 5px rgba:(119, 101, 101 0.3)
+    box-shadow: 10px 5px 5px aqua;
 }
 
 .title {
