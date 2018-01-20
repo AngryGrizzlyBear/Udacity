@@ -5,7 +5,8 @@ html    {
 #infocard {
     padding: 15px;
     width: 300px;
-    box-shadow: 10px 5px 5px aqua;
+    box-shadow: 10px 5px 5px black;
+    background-color: grey;
 }
 
 .title {
