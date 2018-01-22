@@ -9,9 +9,9 @@ body {
 	min-height: 100vh;
 }
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  	margin: 0;
+  	padding: 0;
+  	list-style: none;
 }
 
 h2,
@@ -64,7 +64,7 @@ a {
 	border-radius: 5px;
 }
 
-/*effects images*/
+/*Effects images*/
 
 * {
     box-sizing: border-box;
@@ -76,7 +76,7 @@ body {
     font-family: Arial;
 }
 
-/* Center website */
+/* Centers website */
 .main {
     max-width: 1000px;
     margin: auto;
@@ -91,13 +91,13 @@ h1 {
     margin: 8px -16px;
 }
 
-/* Add padding BETWEEN each column */
+/* Adds padding between each coloumn*/
 .row,
 .row > .column {
     padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Creates four columns that float next to each other*/
 .column {
     float: left;
     width: 25%;
@@ -115,6 +115,10 @@ h1 {
 .content {
     background-color: white;
     padding: 10px;
+}
+
+.footer {
+	font-style: italic
 }
 
 
@@ -145,14 +149,14 @@ h1 {
 
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media (max-width: 900px) {
     .column {
         width: 50%;
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
     .column {
         width: 100%;
