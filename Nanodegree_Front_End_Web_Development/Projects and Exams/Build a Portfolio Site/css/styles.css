@@ -85,28 +85,49 @@ h1 {
     word-break: break-all;
 }
 
+/* Adding Flex Property to the Page.  */
 .row {
-    margin: 8px -16px;
+	display: flex;	
 }
+
+/* This adjusts the column so that it's aligned. It also helps with spacing.   */
+/* Flex 1 makes everything equal. I wish this was better explained, because this one was very complicated, and the solution was pretty difficult to find. */
+
+.column {
+	min-height: 300px;
+	flex: 1;
+}
+
+/* This adjusts the content inside of the column. Otherwise, it would make the display uneven */
+.column > .content {
+	height: 100%;
+}
+
+
+/* Holding on to this code for future reference. I really thought this flex idea was nice, and would hate to lose this work. */
+
+/* .row {
+    margin: 8px -16px;
+} */
 
 /* Adds padding between each coloumn*/
-.row,
+/* .row,
 .row > .column {
     padding: 8px;
-}
+} */
 
 /* Creates four columns that float next to each other*/
-.column {
+/* .column {
     float: left;
     width: 25%;
-}
+} */
 
 /* Clear floats after rows */ 
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* Content */
 
@@ -123,6 +144,13 @@ h1 {
 	width: 100%;
 }
 
+/* Nice little feature for when images aren't saved at the the same size...May or may not work.*/
+
+/* .secondaryimage {
+	width: 100%;
+	max-height: 500px;
+	overflow: hidden;
+} */
 /* Media Queries */
 
 @media (min-width: 769px) {
@@ -133,11 +161,14 @@ h1 {
 	.header {
 		flex-direction: column;
 		align-items: center;
-    	.header{
+
+	/* This caused problems too. Removed it */
+
+    	/* .header{
 		width: 80%;
 		margin: 0 auto;
 		max-width: 1150px;
-	}
+	} */
   }
 
 }
@@ -152,13 +183,20 @@ h1 {
 
 
 @media (max-width: 900px) {
-    .column {
+.row    {
+		flex-direction: column;
+}
+/* This was causing issues with Ipad (not pro.) Decided that this feature wasn't necessary. */
+/* .column {
         width: 50%;
-    }
+    } */
 }
 
 
 @media (max-width: 600px) {
+	.row {
+		flex-direction: column;
+	}
     .column {
         width: 100%;
     }
