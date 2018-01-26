@@ -10,3 +10,4 @@ Placed footer inside the body tag.
 Changed image "doggo image.jpg" to "doggoimage.jpg"
 deleted extra * in css.
 
+Final project complete. 
