@@ -12,4 +12,3 @@ deleted extra * in css.
 
 Final project complete. 
 
-Update.
