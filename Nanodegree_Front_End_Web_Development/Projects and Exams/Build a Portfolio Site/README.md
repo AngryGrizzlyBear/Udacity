@@ -12,3 +12,6 @@ deleted extra * in css.
 
 Final project complete. 
 
+Should be resuming study starting tomorrow.
+
+
