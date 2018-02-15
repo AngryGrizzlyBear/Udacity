@@ -2,6 +2,10 @@
  * Create a list that holds all of your cards
  */
 
+class card {
+    constructor
+
+}
 
 /*
  * Display the cards on the page
