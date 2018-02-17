@@ -20,4 +20,7 @@ var savingsAccount = {
    printAccountSummary(){return "Welcome!\nYour balance is currently $1000 and your interest rate is 1%."}
 };
 
-console.log(savingsAccount.printAccountSummary());
+console.log(savingsAccount.printAccountSummary()
+
+
+// Test
