@@ -10,4 +10,4 @@ var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "
 console.log(hasEnoughPlayers(team));
 
 
-//Gunna have to review this one again a little later. Pending
+//Gunna have to review this one again a little later. 
